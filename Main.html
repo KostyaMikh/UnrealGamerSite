@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            background-image: url('/Users/denis.mikhailov/main.png');
+            background-size: cover;
+            background-position: center top;
+            background-attachment: scroll;
+            height: 440vh;
+            width: 100%;
+            background-color: #262116;
+        }
+
+        .centered-button {
+            margin-bottom: 20px;
+            margin-top: 350vh; /* Reduced margin-top to move the button higher */
+            margin-left: 50vh;
+        }
+
+        .image-button img {
+            width: 500px;
+            height: auto;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .image-button img:hover {
+            transform: scale(1.1);
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        .overworld-text {
+            font-size: 36px; /* Smaller font size */
+            font-weight: bold;
+            color: #FFCC00; /* Bright yellow color */
+            text-align: center;
+            position: absolute;
+            top: 300vh; /* Adjust to position it above the button */
+            left: 50%;
+            transform: translateX(-50%);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Subtle shadow */
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="overworld.html" class="image-button">
+        <img src="/Users/denis.mikhailov/button.png" alt="Teleport to Overworld Button" class="centered-button">
+    </a>
+
+ 
+
+</body>
+
+</html>
