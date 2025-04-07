@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overwold</title>
+    <style>
+         html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            background-image: url('/Users/denis.mikhailov/v2overworld.png');
+            background-size: cover;
+            background-position: center top;
+            background-attachment: scroll;
+            height: 220vh;
+            width: 100%;
+            background-color: #5ad0ff;
+        }
+        .overworld-text {
+            font-size: 36px; /* Smaller font size */
+            font-weight: bold;
+            color: #FFCC00; /* Bright yellow color */
+            text-align: center;
+            position: absolute;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Subtle shadow */
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        .profile
+        {
+            margin-top: 70px;
+            margin-left: 60px;
+        }
+
+        .centered-button {
+            margin-bottom: 20px;
+            margin-top: 100vh; /* Reduced margin-top to move the button higher */
+            margin-left: 50vh;
+        }
+
+        .image-button img {
+            width: 500px;
+            height: auto;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .image-button img:hover {
+            transform: scale(1.1);
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="overworld-text">Special Thanks to theese player:</div>
+
+    <img src="/Users/denis.mikhailov/p1.png" alt="aaagamer" class="profile">
+    <div></div>
+    <div class="overworld-text">aaagamer</div>
+    <img src="/Users/denis.mikhailov/p2.png" alt="pookiegod" class="profile">
+    <div></div>
+    <div class="overworld-text">pookiegod</div>
+    <img src="/Users/denis.mikhailov/p3.png" alt="stevee" class="profile">
+    <div></div>
+    <div class="overworld-text">stevee</div>
+
+
+
+
+    <div class="overworld-text" style="margin-top:100px; font-size:xx-large;"><a href="joinserver.html">join</a> our server! </div>
+
+    <a href="Main.html" class="image-button">
+        <img src="/Users/denis.mikhailov/button1.png" alt="Teleport to Overworld Button" class="centered-button">
+    </a>
+
+
+</body>
+</html>
